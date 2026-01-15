@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <Header />
         <Navbar />
-        <main className="mr-64 min-h-screen">
+        <main className="md:mr-64 min-h-screen">
           {children}
         </main>
       </body>
